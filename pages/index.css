@@ -5,4 +5,13 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  font-family: "Noto Serif", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400px, 500px, 700px;
+  font-style: normal;
 }
