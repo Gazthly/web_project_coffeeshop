@@ -8,7 +8,6 @@
 }
 .noto-serif-font {
   font-family: "Noto Serif", system-ui;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
   font-variation-settings: "wdth" 100;
