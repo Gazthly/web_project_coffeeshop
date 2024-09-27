@@ -161,6 +161,7 @@ p {
 }
 .recipes__video-item {
   display: flex;
+  border: 0;
 }
 
 .recipes__iframe {
@@ -177,4 +178,6 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 0;
+  margin-top: 24px;
+  width: 480px;
 }
