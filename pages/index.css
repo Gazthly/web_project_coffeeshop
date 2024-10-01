@@ -103,6 +103,7 @@ p {
   line-height: 20px;
   color: #838383;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   margin-top: auto;
   margin-left: 80px;
@@ -115,9 +116,6 @@ p {
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
   z-index: 2;
   margin-right: 80px;
 }
