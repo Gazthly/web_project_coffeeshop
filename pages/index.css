@@ -186,13 +186,13 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0;
+  padding-top: 100px;
 }
 
 .reservation__title {
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
