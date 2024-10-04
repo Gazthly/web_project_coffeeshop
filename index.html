@@ -115,7 +115,59 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label"
+                >Nombre *
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                />
+              </label>
+              <label class="form__label"
+                >Número de comensales *
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label class="form__label"
+                >Fecha y hora *
+                <input class="form__input" type="date" required />
+              </label>
+              <label class="form__label"
+                >Tu correo electrónico *
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+              <button class="form__button" type="submit">
+                Reservar una mesa
+              </button>
+              <label class="form__label-checkbox" for="checkbox"
+                ><input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="checkbox"
+                  value="checkbox"
+                  name="Terminos-de-uso"
+                  required
+                />Acepto los términos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="footer"></footer>
     </div>
