@@ -1,3 +1,7 @@
+p {
+  margin: 0;
+}
+
 .footer {
   background-color: #0a2850;
   padding-top: 60px;
@@ -65,14 +69,14 @@
   margin-bottom: 16px;
 }
 
+.footer__list-item:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
-
-.footer__social-link:hover {
-  color: #c1c1c1;
 }
 
 .footer__copyright {
