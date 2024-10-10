@@ -69,7 +69,7 @@ p {
   margin-bottom: 16px;
 }
 
-.footer__list-item:hover {
+.footer__column-link:hover {
   color: #c1c1c1;
 }
 
