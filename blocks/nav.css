@@ -34,3 +34,8 @@
 .nav__link:hover {
   color: #2f80ed;
 }
+.nav__link:link,
+.nav__link:visited,
+.nav__link:active {
+  color: #2f80ed;
+}
